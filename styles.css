@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px 20px 10px;
+    border-bottom: 2px solid rgb(65, 88, 133);
+}
+
+header h1 {
+    color: rgb(65, 88, 133);
+    font-size: 36px; 
+}
+
+header h2 {
+    color: rgb(65, 88, 133);
+    font-size: 18px; 
+}
+/*
+header h3 {
+    color: rgb(65, 88, 133);
+    font-size: 18px; 
+}
+*/
+
+
+header p {
+    color: rgb(65, 88, 133);
+    font-size: 12px;
+}
+
+
+.paragraph-box {
+    padding: 20px; 
+}
+
+
+.Education {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.Listing {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-info {
+    margin-left: -45px;
+}
